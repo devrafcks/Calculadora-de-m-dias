@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de medias</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <i class="fa-solid fa-graduation-cap"></i>
+        <h1>Calculadora de médias</h1>
+    </header>
+    <form action="">
+        <input type="text" id="nameValue" placeholder="Nome da atividade" required>
+        <input type="number" name="notaValue" id="nota" required placeholder="Nota" min="0" max="10" >
+        <button type="submit" id="add">Adicionar menção</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Atividade</th>
+                <th>Nota</th>
+                <th>Situação</th>
+            </tr>
+        </thead>
+        <tbody id="tabela">
+        </tbody>
+        <tfoot>
+            <tr>
+                <td id="mediaTable">Média</td>
+                <td id="mediaValue"></td>
+                <td id="situacao"></td>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
