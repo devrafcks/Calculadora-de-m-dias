@@ -1,6 +1,9 @@
 # 📘 Calculadora de Médias
 ![image](https://github.com/user-attachments/assets/1981c67f-8294-4aad-a79f-f34514cf337d)
 
+---
+https://devrafcks.github.io/Calculadora-de-m-dias/
+---
 Projeto desenvolvido durante o curso da EBAC na seção de DOM
 
 ## ✨ Funcionalidades
